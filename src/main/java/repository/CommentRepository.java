@@ -1,0 +1,13 @@
+package repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import model.Comment;
+
+//import com.sun.tools.javac.parser.Tokens.Comment;
+
+@Repository
+public interface CommentRepository extends JpaRepository<Comment,Long> {
+
+}
